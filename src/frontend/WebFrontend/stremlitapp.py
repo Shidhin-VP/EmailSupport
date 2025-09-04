@@ -3,7 +3,8 @@ import requests
 import json
 
 SECRET_CODE = "opensesame123"
-API_URL = "http://127.0.0.1:8000/process-email"
+# API_URL = "http://127.0.0.1:8000/process-email"
+API_URL="https://email-support-c47863f811a6.herokuapp.com/process-email"
 
 def login():
     st.title("Login")
