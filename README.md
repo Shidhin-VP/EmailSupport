@@ -1,7 +1,6 @@
 # EmailSupport
 
 # Demo
+![UpdatedNewGif (1)](https://github.com/user-attachments/assets/9d19ed3f-64e6-443a-b3c1-5ad8643284db)
 
-
-https://github.com/user-attachments/assets/8f22ab9d-d73c-43d9-b6f5-76c1635a5269
 
