@@ -1,10 +1,11 @@
 import streamlit as st
 import requests
 import json
+import streamlit as st
 
-SECRET_CODE = "opensesame123"
+SECRET_CODE = st.secrets['accessCode']
 # API_URL = "http://127.0.0.1:8000/process-email"
-API_URL="https://email-support-c47863f811a6.herokuapp.com/process-email"
+API_URL=st.secrets['URL']
 
 def login():
     st.title("Login")
