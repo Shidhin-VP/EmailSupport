@@ -2,7 +2,7 @@ from langchain.agents import initialize_agent, AgentType,Tool
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 import os
-from tools import classify_email, assess_urgency, generate_reply
+from .tools import classify_email, assess_urgency, generate_reply
 
 def get_email_agent():
     llm = ChatOpenAI(api_key=os.getenv("OPENAI_API_KEY"),model="gpt-4", temperature=0)
