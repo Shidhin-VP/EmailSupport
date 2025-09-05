@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from .models import EmailRequest, EmailResponse
-from agent import analyze_email
+from .agent import analyze_email
 import os
 from dotenv import load_dotenv
 import openai
